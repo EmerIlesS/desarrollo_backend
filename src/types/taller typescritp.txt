@@ -32,7 +32,7 @@ const arraysProducts:any[]=[{
     praceProduct:1500
     }
     ]
-//filtrar en una constante donde el price sea mayor de 900 por filter y for
+//filtrar en una constante donde el price sea mayor de 900 por filter y for  y un if
 //encontrar el primer objeto del array donde el priceDiscount sea mayor a 500 por find
 // encontrar el indice del primer elemento del array donde el price sea mayor que 1000 por medio de find index
 //agregar tres nuevos objetos de productos por medio de push

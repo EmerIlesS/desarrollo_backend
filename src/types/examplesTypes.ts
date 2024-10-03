@@ -216,7 +216,7 @@ console.log(joinNumberArrayCoins);
 
 // find: encontrar
 const numbersTwo: number[] = [10, 20, 30, 40];
-const foundNumber: number | undefined = numbersTwo.find((num) => num > 25);
+const foundNumber: number = numbersTwo.find((num) => num > 25);
 console.log(foundNumber, 'foundNumber');
 
 const foundIndex: number | undefined = numbersTwo.find((num) => num > 25);
