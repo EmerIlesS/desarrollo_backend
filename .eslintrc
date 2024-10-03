@@ -1,0 +1,45 @@
+
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "airbnb-base", //habilitamos 
+      "airbnb-typescript/base",//extinde  las reglas  de javascript a typescript
+      "eslint:recommended",//que hanilite las reglas basicas de javascript
+      "plugin:@typescript-eslint/recommended"
+    ],//el extend es para la reglas y hasta que punto se extinede el eslintrc
+    "parserOptions": {//opciones de parceo
+      "project": "./tsconfig.json",//  extendemos  y configuramos  el 
+      "tsconfigRootDir": "./",
+      "sourceType": "module"//espesifica donde esta ubicado
+    },
+    "rules": {//rules es para aplicar reglas en  nuestro proyecto o para quitar dichas reglas del codigo
+
+      "prefer-const": "off",
+      "@typescript-eslint/no-inferrable-types": "off",
+      "linebreak-style": "off",
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "off",
+      "import/no-extraneous-dependencies": "off",
+      "no-param-reassign": "off",
+      "no-throw-literal": "off",
+      "@typescript-eslint/no-throw-literal": "off",
+      "no-restricted-syntax": "off",
+      "max-len": "off",
+      "no-console": "off",
+      "@typescript-eslint/no-explicit-any": "off"
+      
+      // " quotes":["error","single"]
+    },
+    "overrides": [
+      {
+        "files": ["*.js"],
+        "parser": "espree", // El parser estándar de JavaScript
+        "rules": {
+          "@typescript-eslint/no-var-requires": "off" // Desactiva reglas de TS en archivos JS
+        }
+      }
+    ]
+  }
+  
+  
+  
