@@ -1,0 +1,45 @@
+//1
+//agregar al array por medio de push= 10, 12, 15, 16, 17
+//eliminar el ultimo elmento con pop
+//encontrar el indice de un elemento = 1, 4, 7, con indexof
+//extraer una parte del array con slice desde la posicion 2-9
+// verificar si los elementos son mayores que 1 con every
+//verificar si algun elemnto es mayor o igual que 7 con some
+
+//2
+//en 2 punto agregar 10, 11, 12, 13, 14 push tipo string
+//encontrar el indice de un elemento 11, 12, 14 con index of
+
+//3
+//dividir la cadena en un array de palabras donde el separador sea el espacio por split
+//a la salida hacer join donde se separen por comas
+
+//4
+//dividir la cadena en un array de palabras donde el separador sea las comas por split
+//a la salida aplicar join donde separe las palabras con espacios
+
+//5
+const arraysProducts:any[]=[{
+    id:1,
+    name:'arroz',
+    pace:100,
+    praceProduct:700
+    },
+    {
+    id:2,
+    name:'atun',
+    pace:2500,
+    praceProduct:1500
+    }
+    ]
+//filtrar en una constante donde el price sea mayor de 900 por filter y for
+//encontrar el primer objeto del array donde el priceDiscount sea mayor a 500 por find
+// encontrar el indice del primer elemento del array donde el price sea mayor que 1000 por medio de find index
+//agregar tres nuevos objetos de productos por medio de push
+
+//6
+const  arays01:number[]=[1,2,3,4]
+   const  arays02:number[]=[ 6,7,8,9]
+//concatenar el array01 con array 02 por medio de concat y push
+//a la constante generada ordenar de mayor a menor por sort en otra const
+//a la misma constante generada ordenar en forma descendente con reverse
