@@ -254,13 +254,14 @@ console.log(reverseNumbers, 'reverseNumbers');
 const auxNumbersArray: number[] = [1, 2, 3, 4, 5, 6, 9, 2, 1];
 let aut: any = [];
 
-for (let i = 0; i < auxNumbersArray.length; i++){
-  if ( ! aut.includes ( ( auxNumbersArray [ i ] ) ) ) {
-    aut.push ( auxNumbersArray [ i ]  ); 
+for (let i = 0; i < auxNumbersArray.length; i++) {
+  if (!aut.includes((auxNumbersArray[i]))) {
+    aut.push(auxNumbersArray[i]);
   } else {
-  console.log('El numero ya existe');
+    console.log('El numero ya existe');
   }
 }
+
 console.log(aut, 'aut');
 const hasFour: boolean = numbersTwo.includes(4);
 console.log(hasFour, 'hasFour');

@@ -27,7 +27,8 @@
       "max-len": "off",
       "no-console": "off",
       "@typescript-eslint/no-explicit-any": "off",
-      "object-curly-newline": ["off"]
+      "object-curly-newline": ["off"],
+      "no-plusplus": "off"
       
       
       // " quotes":["error","single"]

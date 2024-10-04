@@ -1,6 +1,6 @@
 console.log('taller');
 const auxNumber = [1, 4, 7, 9, 15];
-auxNumber.push(10, 12, 17, 17);
+auxNumber.push(10, 12, 16, 17);
 console.log('Array después de push:', auxNumber);
 auxNumber.pop();
 console.log('Array después de pop:', auxNumber);
@@ -33,8 +33,8 @@ console.log('Cadena con palabras separadas por comas:', joinedString);
 const Names = 'michael,anderson,yadir,kevin,Emerson';
 const namesArray = Names.split(',');
 const namesWithSpaces = namesArray.join(' ');
-console.log("Array de nombres:", namesArray);
-console.log("Nombres con espacios:", namesWithSpaces);
+console.log('Array de nombres:', namesArray);
+console.log('Nombres con espacios:', namesWithSpaces);
 const arraysProducts = [
     {
         id: 1,
@@ -49,19 +49,19 @@ const arraysProducts = [
         praceProduct: 1500,
     },
 ];
-const filteredProductsWithFilter = arraysProducts.filter(product => product.praceProduct > 900);
-console.log("Productos con precio mayor a 900 (filter):", filteredProductsWithFilter);
+const filteredProductsWithFilter = arraysProducts.filter((product) => product.praceProduct > 900);
+console.log('Productos con precio mayor a 900 (filter):', filteredProductsWithFilter);
 const filteredProductsWithFor = [];
 for (let i = 0; i < arraysProducts.length; i++) {
     if (arraysProducts[i].praceProduct > 900) {
         filteredProductsWithFor.push(arraysProducts[i]);
     }
 }
-console.log("Productos con precio mayor a 900 (for):", filteredProductsWithFor);
-const firstDiscountedProduct = arraysProducts.find(product => product.praceProduct > 500);
-console.log("Primer producto con precio mayor a 500:", firstDiscountedProduct);
-const indexGreaterThan1000 = arraysProducts.findIndex(product => product.praceProduct > 1000);
-console.log("Índice del primer producto con precio mayor a 1000:", indexGreaterThan1000);
+console.log('Productos con precio mayor a 900 (for):', filteredProductsWithFor);
+const firstDiscountedProduct = arraysProducts.find((product) => product.praceProduct > 500);
+console.log('Primer producto con precio mayor a 500:', firstDiscountedProduct);
+const indexGreaterThan1000 = arraysProducts.findIndex((product) => product.praceProduct > 1000);
+console.log('Índice del primer producto con precio mayor a 1000:', indexGreaterThan1000);
 arraysProducts.push({ id: 3,
     name: 'pan',
     pace: 500,
@@ -72,7 +72,7 @@ arraysProducts.push({ id: 3,
     name: 'huevos',
     pace: 300,
     praceProduct: 1100 });
-console.log("Array de productos después de agregar tres nuevos objetos:", arraysProducts);
+console.log('Array de productos después de agregar tres nuevos objetos:', arraysProducts);
 const arays01 = [1, 2, 3, 4];
 const arays02 = [6, 7, 8, 9];
 const concatenatedArray = arays01.concat(arays02);
