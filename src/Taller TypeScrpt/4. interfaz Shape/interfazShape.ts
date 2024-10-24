@@ -16,4 +16,4 @@ class Rectangle implements Shape {
 }
 
 let rect = new Rectangle(5, 10);
-console.log(' area del rectangulo', rect.calcularArea()); // Output: 50
+console.log(' area del rectangulo', rect.calcularArea()); // Respuesta esperada: 50
